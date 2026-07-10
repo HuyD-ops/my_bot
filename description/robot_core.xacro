@@ -43,7 +43,7 @@
         <geometry>
             <box size="0.45 0.40 0.015"/>
         </geometry>
-        <material name="white"/>
+        <material name="black"/>
     </visual>
 
     <collision>
@@ -66,7 +66,7 @@
 </link>
 
 <gazebo reference="lower_body">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Black</material>
 </gazebo>
 
 <!--MIDDLE BODY-->
@@ -82,7 +82,7 @@
         <geometry>
             <box size="0.29 0.40 0.14"/>
         </geometry>
-        <material name="white"/>
+        <material name="black"/>
     </visual>
 
     <collision>
@@ -104,7 +104,7 @@
 </link>
 
 <gazebo reference="middle_body">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Black</material>
 </gazebo>
 
 <!--UPPER BODY-->
@@ -121,7 +121,7 @@
             <box size="0.45 0.40 0.015"/>
         </geometry>
 
-        <material name="white"/>
+        <material name="black"/>
     </visual>
 
     <collision>
@@ -143,7 +143,7 @@
 </link>
 
 <gazebo reference="upper_body">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Black</material>
 </gazebo>
 
 <!--LIDAR MOUNT-->
@@ -160,7 +160,7 @@
             <box size="0.07 0.06 0.05"/>
         </geometry>
 
-        <material name="black"/>
+        <material name="white"/>
 
     </visual>
 
@@ -185,7 +185,7 @@
 </link>
 
 <gazebo reference="lidar_mount">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/White</material>
 </gazebo>
 
 <!--front_left_pillar_joint-->
@@ -201,7 +201,7 @@
         <geometry>
             <box size="0.03 0.016 0.14"/>
         </geometry>
-        <material name="orange"/>
+        <material name="black"/>
     </visual>
 
     <collision>
@@ -221,7 +221,7 @@
 </link>
 
 <gazebo reference="front_left_pillar">
-    <material>Gazebo/Orange</material>
+    <material>Gazebo/Black</material>
 </gazebo>
 
 <!--front_right_pillar_joint-->
@@ -237,7 +237,7 @@
         <geometry>
             <box size="0.03 0.016 0.14"/>
         </geometry>
-        <material name="orange"/>
+        <material name="black"/>
     </visual>
 
     <collision>
@@ -257,7 +257,7 @@
 </link>
 
 <gazebo reference="front_right_pillar">
-    <material>Gazebo/Orange</material>
+    <material>Gazebo/Black</material>
 </gazebo>
 
 <!-- LEFT MOTOR -->
@@ -274,7 +274,7 @@
         <geometry>
             <box size="0.14 0.055 0.074"/>
         </geometry>
-        <material name="black"/>
+        <material name="white"/>
     </visual>
 
     <collision>
@@ -297,7 +297,7 @@
 </link>
 
 <gazebo reference="left_motor">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/White</material>
 </gazebo>
 
 <!-- RIGHT MOTOR -->
@@ -314,7 +314,7 @@
         <geometry>
             <box size="0.14 0.055 0.074"/>
         </geometry>
-        <material name="black"/>
+        <material name="white"/>
     </visual>
 
     <collision>
@@ -337,7 +337,7 @@
 </link>
 
 <gazebo reference="right_motor">
-    <material>Gazebo/Black</material>
+    <material>Gazebo/White</material>
 </gazebo>
 
 <!-- LEFT WHEEL-->
@@ -445,7 +445,7 @@
 </link>
 
 <gazebo reference="caster_front_left">
-    <material>Gazebo/orange</material>
+    <material>Gazebo/Orange</material>
     <mu1 value="0.001"/>
     <mu2 value="0.001"/>
 </gazebo>
@@ -479,7 +479,7 @@
 </link>
 
 <gazebo reference="caster_front_right">
-    <material>Gazebo/orange</material>
+    <material>Gazebo/Orange</material>
     <mu1 value="0.001"/>
     <mu2 value="0.001"/>
 </gazebo>
@@ -513,7 +513,7 @@
 </link>
 
 <gazebo reference="caster_rear_left">
-    <material>Gazebo/orange</material>
+    <material>Gazebo/Orange</material>
     <mu1 value="0.001"/>
     <mu2 value="0.001"/>
 </gazebo>
@@ -547,7 +547,7 @@
 </link>
 
 <gazebo reference="caster_rear_right">
-    <material>Gazebo/orange</material>
+    <material>Gazebo/Orange</material>
     <mu1 value="0.001"/>
     <mu2 value="0.001"/>
 </gazebo>
